@@ -134,10 +134,77 @@ header{
     text-align: center;
 }
 
-.image-container .iphone-12{
+.image-container .iphone-12-pro{
     height: 640px;
     width: 100%;
     padding-top: 20px;
+}
+
+.iphone-12-pro{
+    height: 90%;
+    min-height: 100%;
+    background-image: url(img/iphone12pro-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.iphone-12-pro .title{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.iphone-12-pro .title h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.iphone-12-pro .title p{
+    font-size: 25px;
+    color: white;
+}
+
+.iphone-12-pro .cta-links{
+    text-align: center;
+}
+
+.image-container .fitness{
+    height: 500px;
+    width: 100%;
+    padding-top: 0%;
+    flex: auto;
+}
+
+.fitness{
+    height: 90%;
+    min-height: 100%;
+    background-image: url(img/apple-fitness.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title .hello{
+    font-size: 50px;
+    color: rgba(41, 41, 41, 0.89);
+    font-weight: 700;
+}
+
+.title .A{
+    font-size: 25px;
+    color: rgba(41, 41, 41, 0.89);
+}
+
+.title .cta-links{
+    text-align: center;
 }
 
 /* Rensponsive */
